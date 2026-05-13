@@ -1,17 +1,23 @@
 {
-    "Name": "Meta-rdk: Preprocessed EEG data",
-    "License": "CC0",
-    "Authors": [
-        "Martin Rouy",
-        "Matthieu Roger",
-        "Dorian Goueytes",
-        "Michael Pereira",
-        "Paul Roux",
-        "Nathan Faivre"
-    ],
-    "ReferencesAndLinks": [
-        ""
-    ],
-    "BIDSVersion": "1.1.1",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004368.v1.0.2"
+  "Name": "Meta-rdk: Preprocessed EEG data",
+  "License": "CC0",
+  "Authors": [
+    "Martin Rouy",
+    "Matthieu Roger",
+    "Dorian Goueytes",
+    "Michael Pereira",
+    "Paul Roux",
+    "Nathan Faivre"
+  ],
+  "ReferencesAndLinks": [
+    ""
+  ],
+  "BIDSVersion": "1.1.1",
+  "DatasetDOI": "10.82901/nemar.on004368",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004368.v1.0.2"
+    }
+  ],
+  "Version": "1.0.0"
 }
