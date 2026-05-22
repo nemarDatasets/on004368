@@ -9,15 +9,21 @@
     "Paul Roux",
     "Nathan Faivre"
   ],
-  "ReferencesAndLinks": [
-    ""
-  ],
-  "BIDSVersion": "1.1.1",
+  "ReferencesAndLinks": [],
+  "BIDSVersion": "1.8.0",
   "DatasetDOI": "10.82901/nemar.on004368",
   "SourceDatasets": [
     {
       "DOI": "doi:10.18112/openneuro.ds004368.v1.0.2"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2",
+  "DatasetType": "raw",
+  "GeneratedBy": [
+    {
+      "Name": "nemar-cli",
+      "Version": "0.8.8",
+      "CodeURL": "https://github.com/nemar-org/nemar-cli"
+    }
+  ]
 }
