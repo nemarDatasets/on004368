@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004368",
-  "source": "openneuro",
-  "source_id": "ds004368",
+  "pipeline_stage": "validated",
   "title": "Meta-rdk: Preprocessed EEG data",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Martin Rouy": {},
     "Matthieu Roger": {},
@@ -12,14 +12,62 @@
     "Paul Roux": {},
     "Nathan Faivre": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004368.v1.0.2",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004368",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004368",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.0 GB (80 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset contains preprocessed EEG recordings from a visual discrimination task comparing individuals with schizophrenia spectrum disorders and healthy controls. Participants performed a motion coherence discrimination task with adaptive difficulty while reporting confidence in their perceptual decisions. The study investigates neural correlates of perceptual decision-making and metacognitive processes in schizophrenia.",
+  "methods_description": "EEG data were collected during a visual discrimination task using 100 moving dots at varying coherence levels adapted via 1up/2down staircase procedure. Participants indicated motion direction (left/right) via mouse click and subsequently reported confidence on a visual analog scale (0-100%). Task duration was 6 seconds per trial with auditory feedback for non-response.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "schizophrenia"
+    },
+    {
+      "term": "perceptual decision-making"
+    },
+    {
+      "term": "metacognition"
+    },
+    {
+      "term": "visual discrimination"
+    },
+    {
+      "term": "motion coherence"
+    },
+    {
+      "term": "confidence judgment"
+    }
+  ],
+  "source_hash": "523283293f55dc76741c950caf9d31d42331f2dc6940f63719bd2a04f9d5c209"
 }
