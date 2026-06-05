@@ -28,6 +28,49 @@
   },
   "value": {
     "LongName": "Event marker",
-    "Description": "Marker value associated with the event (Levels documented in the source dataset for codes 12-17 + 101-130 are preserved in the README; additional codes may appear in the TSV that are not documented upstream.)"
+    "Description": "Marker value associated with the event. The Levels enumeration below is the source dataset's documented mapping (preserved verbatim, with the `x` prefix stripped to match the bare integer cells in the events.tsv data).",
+    "Levels": {
+      "12": "Stimulus onset",
+      "13": "First moment of mouse movement for the perceptual task",
+      "14": "Perceptual response provided",
+      "15": "Onset of the confidence judgment task",
+      "16": "First moment of mouse movement for the confidence task",
+      "17": "Confidence judgment provided",
+      "101": "Trial onset",
+      "102": "Trial onset",
+      "103": "Trial onset",
+      "104": "Trial onset",
+      "105": "Trial onset",
+      "106": "Trial onset",
+      "107": "Trial onset",
+      "108": "Trial onset",
+      "109": "Trial onset",
+      "110": "Trial onset",
+      "111": "Trial onset",
+      "112": "Trial onset",
+      "113": "Trial onset",
+      "114": "Trial onset",
+      "115": "Trial onset",
+      "116": "Trial onset",
+      "117": "Trial onset",
+      "118": "Trial onset",
+      "119": "Trial onset",
+      "120": "Trial onset",
+      "121": "Trial onset",
+      "122": "Trial onset",
+      "123": "Trial onset",
+      "124": "Trial onset",
+      "125": "Trial onset",
+      "126": "Trial onset",
+      "127": "Trial onset",
+      "128": "Trial onset",
+      "129": "Trial onset",
+      "130": "Trial onset",
+      "6": "Undocumented in source; appears only in sub-S37/ses-1 (2 occurrences). Listed here so the Levels enumeration covers every value actually present in the events.tsv data."
+    }
+  },
+  "event_description": {
+    "LongName": "Event description",
+    "Description": "Verbatim description of the event from the source dataset's `Levels` mapping for the `value` column (above). Pure lookup: for each row, the value of `value` is used as the key into `value.Levels` and the corresponding description string is copied here. 'n/a' for value=6 (undocumented in source)."
   }
 }
