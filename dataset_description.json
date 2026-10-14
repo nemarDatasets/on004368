@@ -9,15 +9,14 @@
     "Paul Roux",
     "Nathan Faivre"
   ],
-  "ReferencesAndLinks": [
-    ""
-  ],
-  "BIDSVersion": "1.1.1",
+  "ReferencesAndLinks": [],
+  "BIDSVersion": "1.11.1",
   "DatasetDOI": "10.82901/nemar.on004368",
   "SourceDatasets": [
     {
       "DOI": "doi:10.18112/openneuro.ds004368.v1.0.2"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2",
+  "DatasetType": "raw"
 }
