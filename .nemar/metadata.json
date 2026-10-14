@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Meta-rdk: Preprocessed EEG data",
-  "description": "Preprocessed EEG recordings from 20 individuals with a schizophrenia spectrum disorder and 22 healthy control participants performing a visual motion discrimination task with confidence reporting. Motion coherence was adjusted per individual with a staircase procedure to equate performance between groups, allowing study of perceptual decision-making and metacognition in schizophrenia.",
-  "methods_description": "Participants judged whether 100 moving dots in a central circle moved left or right, responding by moving and clicking a mouse on one of two targets. Motion coherence was individually adapted using a 1up/2down staircase. After each decision, participants rated confidence on a vertical visual analog scale from 0% (sure incorrect) to 100% (sure correct). Diagnoses were based on the Structured Clinical Interview for DSM-5.",
+  "description": "Preprocessed EEG recordings from 20 individuals with a schizophrenia spectrum disorder and 22 healthy control participants performing a visual random-dot motion discrimination task. Participants reported motion direction by mouse reaching and then rated their confidence on a visual analog scale, with motion coherence individually adapted by a staircase procedure to match performance between groups. The dataset supports investigation of perceptual decision-making and metacognition in schizophrenia.",
+  "methods_description": "Participants judged whether 100 moving dots in a central circle moved left or right, responding by clicking one of two targets with a mouse. Motion coherence was adapted individually with a 1up/2down staircase. After each decision, confidence was reported on a vertical visual analog scale from 0% (sure incorrect) to 100% (sure correct). EEG was recorded with 63 scalp channels using g.tec equipment. Schizophrenia and schizoaffective disorders were diagnosed with the Structured Clinical Interview for DSM-5.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -68,5 +68,6 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "523283293f55dc76741c950caf9d31d42331f2dc6940f63719bd2a04f9d5c209"
+  "resource_type_general": "Dataset",
+  "source_hash": "2eba508714970e04712941f18c4dc3cdd0ee5ae83376dbf159cbafce18095d52"
 }
